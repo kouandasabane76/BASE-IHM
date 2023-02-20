@@ -1,0 +1,87 @@
+#main-body{
+    background-color:#fff;
+}
+#nav>ul>li{
+    display: inline-block;
+}
+@media(max-width:48em){
+    
+    #option li{
+        text-align: center;
+    }
+   
+    #nav>ul>li{
+        display: block;
+    }
+}
+@media(min-width:48em){
+    #nav>ul>li:first-child{
+        border-left: none;
+     }
+    #nav>ul>li{
+       border-left: 2px solid black;
+       
+    }
+    #nav>ul>li a {
+        margin: 0 1em;
+     }
+    
+    #nav #signing-link{
+        border-left: none;
+       float: right;
+    }
+    #nav #signing-link a{
+        border-right: 2px solid black;
+        margin: 0;
+        padding: 0 1em;
+        
+    }
+    #nav #signing-link a:last-child{
+        border-right: none;
+    }
+}
+
+#nav-mobile >ul li {
+     background-color:rgb(180, 180, 180);
+     border-bottom: 2px solid #fff;
+     
+}
+#nav-mobile ul{
+    border: none;
+}
+#nav-mobile >ul >li>a{
+    margin-left: 1em;
+    text-decoration: none;
+    color: #fff;
+}
+#inner-content{
+    padding-top: 20%;
+    padding-bottom: 62%;
+   }
+@media (min-width: 576px) {
+    #inner-content{
+        padding-top: 10%;
+        padding-bottom: 12%;
+       }
+  }
+.search-icon{
+    position: relative;
+    left: 1rem;
+    top: 2rem;
+    z-index: 99;
+}
+#search-form  input{
+  padding-left: 2.5em;
+}
+#search-form  input:focus{
+   box-shadow: none;
+  }
+  #link-mobile li{
+    display: inline;
+  }
+  #link-mobile li:last-child{
+    border-left: 2px solid black;
+ }
+ #link-mobile li{
+   padding: 0 1em;
+ }
